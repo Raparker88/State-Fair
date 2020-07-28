@@ -12,17 +12,11 @@ const createEvent = (ticketType) =>{
     })
 }
 
-const rides = "rideTicket"
-const food = "foodTicket"
-const games = "gameTicket"
-const sideshow = "sideshowTicket"
-const fullPackage = "fullPackageTicket"
-
-createEvent(rides)
-createEvent(food)
-createEvent(games)
-createEvent(sideshow)
-createEvent(fullPackage)
+createEvent("rideTicket")
+createEvent("foodTicket")
+createEvent("gameTicket")
+createEvent("sideshowTicket")
+createEvent("fullPackageTicket")
 
 export const TicketBooth = () => {
     contentTarget.innerHTML = `
